@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drama Script - ইচ্ছা মেচিন</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <style>
+        /* Basic Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+        }
+        header, footer {
+            background-color: #222;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 40px;
+            color: #ffcc00;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #f4f4f4;
+            border-radius: 10px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        section:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+
+        section h2 {
+            background-color: #ffcc00;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: 'Pacifico', cursive;
+            display: flex;
+            align-items: center;
+        }
+
+        section h2::before {
+            content: url('icon.png');
+            margin-right: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Navigation Buttons */
+        .navButton {
+            padding: 10px 20px;
+            background-color: #ffcc00;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 10px;
+        }
+
+        /* Fun Border and Glow on Hover */
+        .scene {
+            transition: all 0.3s ease;
+        }
+
+        .scene:hover {
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
+            transform: scale(1.05);
+        }
+
+        /* Dark Mode Styles */
+        body.dark-mode {
+            background-color: #333;
+            color: white;
+        }
+        body.dark-mode header, body.dark-mode footer {
+            background-color: #222;
+        }
+        body.dark-mode section {
+            background-color: #444;
+            color: white;
+        }
+
+        /* Footer */
+        footer {
+            font-size: 14px;
+            line-height: 1.6;
+            background-color: #222;
+            color: white;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        /* Poll Section */
+        #poll button {
+            padding: 10px;
+            background-color: #ffcc00;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        #result {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ইচ্ছা মেচিন Drama Script</h1>
+    <button id="toggleTheme">Switch to Dark Mode</button>
+</header>
+
+<!-- Drama Script Content -->
+
+<section class="scene" data-aos="fade-up">
+    <h2>দৃশ্য 1: শ্ৰেণীকক্ষ</h2>
+    <p>শিক্ষক/শিক্ষিকা: (হাঁহি মাৰি) আজি শিশু দিৱস উপলক্ষে আমাৰ স্কুলত আপোনালোকেৰ বাবে এটা বিশেষ চমক আছে। আমাৰ ওচৰলৈ আহিব এজন বিশেষ অতিথি, যি আপোনালোকেৰ বাবে কিছু জাদুকৰী দেখুৱাব। প্ৰথমে, এইকেইটা মিঠাই উপভোগ কৰক!</p>
+    <p>(শিক্ষকে মিঠাই বিতৰণ কৰে আৰু ওলাই যায়।)</p>
+    <p>ৰোহান: (মিঠাই খাই) আহা, কি সুস্বাদু! কিন্তু চমকটো কি হ'ব, ভাবি পোৱা নাই।</p>
+    <p>মিনা: মই শুনিছো, এটা জাদু অনুষ্ঠান হ'ব। ৰোহান, তুমি জাদুত বিশ্বাস কৰা?</p>
+    <p>ৰোহান: জাদু? নাহ! সেইবোৰ তৰ্কাৰ। মই প্ৰকৃত জাদু দেখিব বিচাৰো।</p>
+    <p>(কাকু প্রবেশ কৰে আৰু সৰু বাকচ এটা হাতত লৈ থাকে।)</p>
+    <p>কাকু: হ'ল'বা, ল'ৰা-ছোৱালীসকল! মই আজি আপোনালোকক এটা অতি আশ্চৰ্যজনক বস্তু দেখুওৱা আহিছোঁ।</p>
+    <p>শ্ৰেণীৰ ছাত্ৰ-ছাত্ৰীসকলে: (উচ্ছ্বসিত হৈ) বাহ! কি? এটা কি জাদু?</p>
+    <p>কাকু: সেয়া মিছা নহয়, এইটো এটা বিশেষ মেচিন—একটা ইচ্ছা মেচিন!</p>
+    <p>ৰোহান: (আশ্চৰ্য হৈ) ইচ্ছা মেচিন? ই আসলতে কাম কৰে নেকি? ই সত্যি ইচ্ছা পূৰণ কৰিব পাৰে নেকি?</p>
+    <p>কাকু: হাঁ, কিন্তু তোমাৰ ইচ্ছাটো নিঃস্বাৰ্থ আৰু আনৰ মঙ্গলৰ বাবে হ'ব লাগিব।</p>
+</section>
+
+<section class="scene" data-aos="fade-up">
+    <h2>দৃশ্য 2: ইচ্ছা মেচিন</h2>
+    <p>(কাকুৱে বাকচটো খুলে। বাকচটোত এটা সৰু পুৰণি যন্ত্ৰ থাকে, য’ত এটা লিভাৰ থাকে।)</p>
+    <p>কাকু: প্ৰথমে কোনে চেষ্টা কৰিব খুজিছে?</p>
+    <p>মিনা: ৰোহানে চেষ্টা কৰক। তেওঁ জাদুত বিশ্বাস নকৰে।</p>
+    <p>ৰোহান: ঠিক আছে, চাওঁ আহক। (লিভাৰ টানে) মই ইচ্ছা কৰিলোঁ... বহুত টকা পোৱাৰ বাবে!</p>
+    <p>ইচ্ছা মেচিন (ভয়েচ অভাৰ): (গভীৰ কন্ঠত) স্বাৰ্থপূৰ্ণ ইচ্ছা পূৰণ নহ’ব। নিঃস্বাৰ্থ হৃদয়েৰে পুনৰ চেষ্টা কৰক।</p>
+    <p>ৰোহান: (হতাশ হৈ) ঠিক আছে। মই ইচ্ছা কৰিলোঁ সকলোৰে বাবে এটা ডাঙৰ চকোলেট কেকৰ!</p>
+    <p>(হঠাৎ এটি সৰু বাকচ আবিৰ্ভাৱ হয়, য’ত চকোলেট থাকে। ছাত্ৰ-ছাত্ৰীসকলে আনন্দিত হৈ ভাগ বতৰা কৰে।)</p>
+    <p>শ্ৰেণীৰ ছাত্ৰ-ছাত্ৰীসকলে: বাহ! ই সত্যি! ধন্যবাদ, ৰোহান!</p>
+    <p>মিনা: (হাঁহি মাৰি) ই অতি আশ্চৰ্যকৰ। মই চেষ্টা কৰো! মই আমাৰ বিদ্যালয়ত এটা সুন্দৰ বাগিচাৰ ইচ্ছা কৰিলোঁ।</p>
+    <p>ইচ্ছা মেচিন (ভয়েচ অভাৰ): তোমাৰ ইচ্ছা পূৰণ হ’ব, যিহেতু ই আনন্দ আৰু সুখ বঢ়ায়।</p>
+    <p>(কাকুৱে মিনা হাতত এখন গছৰ চাৰা দিয়ে।)</p>
+    <p>কাকু: বাগিছা এই চাৰাৰ পৰা আৰম্ভ হ’ব। ল’ৰা-ছোৱালীসকলে, ইয়াক সাৱধানে ৰক্ষা কৰিবা।</p>
+</section>
+
+<section class="scene" data-aos="fade-up">
+    <h2>দৃশ্য 3: উপলব্ধি</h2>
+    <p>ৰোহান: (চিন্তাত মগ্ন হৈ) কাকু, মই সদায় ভাবিছিলোঁ যে জাদু মিছা। কিন্তু ই আনে যেন সঁচা অনুভৱ হয়।</p>
+    <p>কাকু: (হাঁহি মাৰি) সত্যিকাৰ জাদু তোমাৰ হৃদয়তে আছে। যেতিয়া তোমাৰ ইচ্ছা নিঃস্বাৰ্থ হয়, তেতিয়া ই পূৰণ হয়।</p>
+    <p>মিনা: তেন্তে, এইটো মেচিনৰ বিষয় নহয়, নিঃস্বাৰ্থ মনৰ বিষয়, সেয়া নেকি?</p>
+    <p>কাকু: একদম ঠিক! ইচ্ছা মেচিন মাত্ৰ সেইবোৰ ইচ্ছা পূৰণ কৰে, যিবোৰ নিঃস্বাৰ্থ।</p>
+    <p>ৰোহান: (হাঁহি মাৰি) মই সঁচাকৈয়ে এটা শুদ্ধ হৃদয়ৰ পৰা ইচ্ছা কৰিম। সেয়া পাৰিবা নেকি, মেচিন?</p>
+    <p>ইচ্ছা মেচিন (ভয়েচ অভাৰ): নিশ্চয়, তুমি জাৰ জীৱনৰ বাবে পূৰ্ণতা পাবা।</p>
+    <p>কাকু: সেয়া হ’ব, ল’ৰা-ছোৱালীসকল। আৰু এই গল্পটো হৈছে, ইচ্ছাৰ শক্তি চাৰা দিলে জীৱন ভাল হব।</p>
+</section>
+
+<!-- Poll Section -->
+<section class="scene">
+    <h2>Poll: Whic character do you Liked the mos?</h2>
+    <div id="poll">
+        <button onclick="submitVote('Rohan')">Rohan</button>
+        <button onclick="submitVote('Mina')">Mina</button>
+        <button onclick="submitVote('Kaku')">Kaku</button>
+    </div>
+    <p id="result"></p>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p><strong>Credits:</strong></p>
+    <p>Writer: Nibir, Udit, Raihan</p>
+    <p>Director: Nibir Tridip Borah</p>
+    <p>Stage Manager: Udit Kr. Tanti and Nibir Tridip Borah</p>
+    <p>Cast: Students of Class 8, RPS</p>
+    <p>Publisher: Udit Freelance Services.</p>
+    <p>Dated: 11th November 2024</p>
+    <P>Web Development: Udit Kr. Tanti</P>
+
+    <p><strong>Contact Udit:</strong></p>
+    <p>Ph.no 8638616495</p>
+    <p>Email ut491217@gmail.com</p>
+
+    <p><strong>Contact Nibir:</strong></p>
+    <p>Ph.no 83999 61001</p>
+    <p>Email duttasujata87@gmail.com</p>
+</footer>
+
+<audio id="backgroundMusic" autoplay loop>
+    <source src="background-music.mp3" type="audio/mp3">
+</audio>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    // Initialize AOS (Animate On Scroll)
+    AOS.init();
+
+    // Dark Mode Toggle
+    const toggleThemeButton = document.getElementById("toggleTheme");
+// Initialize vote tracking
+let hasVoted = false;
+let votes = { Rohan: 0, Mina: 0, Kaku: 0 };
+
+function submitVote(character) {
+    if (hasVoted) {
+        alert("Bro Kitna Dabaoge!, Bas kar ab");
+        return; // Prevent voting again
+    }
+
+    // Increment vote count
+    votes[character]++;
+    hasVoted = true;
+
+    // Display the current vote counts
+    document.getElementById("result").textContent = `Votes: Rohan - ${votes.Rohan}, Mina - ${votes.Mina}, Kaku - ${votes.Kaku}`;
+
+    // Optionally, store vote counts in localStorage or on the server
+    // localStorage.setItem("votes", JSON.stringify(votes));
+}
+
+</script>
+
+</body>
+</html>
